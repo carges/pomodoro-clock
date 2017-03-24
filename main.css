@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #070b25;
+  color: white;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  text-align: center;
+}
+hr {
+    height: 1px;
+    width: 60%;
+    border-top: 1px solid rgb(199, 199, 199);
+    padding: 0;
+}
+.myLength {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.myTextBreak {
+  font-size: 25px;
+  color: #e49216;
+}
+.myTextNum {
+  font-size: 25px;
+}
+.myTextSession {
+  font-size: 25px;
+  color: #1f931a;
+}
+.countDown {
+  border-radius: 50%;
+  border: medium solid #51d64a;
+  color: white;
+  padding: 70px;
+  font-size: 30px
+}
+.countDown:hover {
+  background-color: #1f244e;
+}
+#myReset {
+  margin-top: 100px;
+}
